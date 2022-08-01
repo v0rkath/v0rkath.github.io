@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   A hub of reverse engineering and malware analysis information and write-ups.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://x02A.github.io'
 
 github:
   username: x02A             # change to your github username
