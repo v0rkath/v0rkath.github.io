@@ -21,7 +21,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: x02A                          # the main title
+title: v0rkath                          # the main title
 
 tagline: Reverse Engineering & Malware Analysis   # it will display as the sub-title
 
@@ -29,23 +29,23 @@ description: >-                        # used by seo meta and the atom feed
   A hub of reverse engineering and malware analysis information and write-ups.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://x02A.github.io'
+url: 'https://v0rkath.github.io'
 
 github:
-  username: x02A             # change to your github username
+  username: v0rkath             # change to your github username
 
 twitter:
-  username: _0x02A            # change to your twitter username
+  username: v0rkath            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: x02A
+  name: v0rkath
   email:            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/_0x02A      # change to your twitter homepage
-    - https://github.com/x02A       # change to your github homepage
+    - https://twitter.com/v0rkath      # change to your twitter homepage
+    - https://github.com/v0rkath       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
