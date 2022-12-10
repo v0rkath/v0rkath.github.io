@@ -22,7 +22,7 @@ Hooking is used quite a lot in certain malware (for instance to steal login info
 
 Here is an image example of a very basic hook into part of a function which subtracts damage from our player's health. In order to place our own code into a process we can inject a DLL into the process by using an injector ([Guided Hacking's Injector](https://guidedhacking.com/resources/guided-hacking-dll-injector.4/) is pretty good) and then using a function like [VirtualProtect()](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) to change the protection of the function you want to hook to then to overwrite bytes for the jump to your own code.
 
-![[simple-hook-example.png]]
+![[/assets/simple-hook-example.png]]
 
 ***
 
