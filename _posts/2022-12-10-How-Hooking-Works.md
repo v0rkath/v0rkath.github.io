@@ -7,9 +7,9 @@ tags: [hooking, hook, hacking]     # TAG names should always be lowercase
 
 ## Overview
 
-This blog post is to cover the absolute basics of hooking (on 32-bit architecture). These are used to ensure your code is run when a certain function of a process is run. For this blog post we are going to be using the scenario of your player character being damaged in game. So, we want to run our own code every time the player gets attacked, this allows us to do many fun things within a process.
+This blog post is to provide a very basic overview of what a hook is and the general process of how it works. Hooks are used to ensure your code is run when a certain function of a process is run. For this blog post we are going to be using the scenario of your player character being damaged in game. So, we want to run our own code every time the player's health decreases, this allows us to do many fun things within a process.
 
-Hooking is used quite a lot in certain malware (for instance to steal login information from a binary despite the password being hidden via asterisks), game hacking and also just adding functionality to standard processes.
+Hooking is used quite a lot in certain malware (for instance to steal login information from a binary despite the password being hidden via asterisks), game hacking and also enhancing the functionality of a program.
 
 ***
 
