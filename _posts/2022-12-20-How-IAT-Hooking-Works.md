@@ -35,10 +35,8 @@ typedef IMAGE_IMPORT_DESCRIPTOR UNALIGNED *PIMAGE_IMPORT_DESCRIPTOR;
 
 The main things in the above struct that are mainly used for IAT Hooking at the `OriginalFirstThunk` (The relative virtual address to the ILT/INT), `Name` (name of the DLL) and `FirstThunk` (the relative virtual address to the IAT).
 
-<figure>
 ![Relationship of the Import Directory, IAT and ILT](/assets/IDT-ILT-IAT-diagram.png)
 <figcaption align="center">General relationship of the Import Directory, IAT and ILT</figcaption>
-</figure>
 
 The ILT/INT is an acronym for either Import Lookup Table or Import Name Table, respectively. Both of which are names which are used interchangeably. The is a table of function names which have been imported into the process by the DLL. As just mentioned above the `IMAGE_IMPORT_DESCRIPTOR` contains the address of the ILT/INT.
 
