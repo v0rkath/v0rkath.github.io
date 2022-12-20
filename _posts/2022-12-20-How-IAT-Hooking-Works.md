@@ -28,7 +28,7 @@ typedef struct _IMAGE_IMPORT_DESCRIPTOR {
        O.W. date/time stamp of DLL bound to (Old BIND) */
     DWORD ForwarderChain; // -1 if no forwarders
     DWORD Name;
-    DWORD FirstThunk; // RVA to IAT (if bound this IAT has actual addresses)
+    DWORD FirstThunk; // RVA to IAT (if bound this IAT has actual addresses).
 } IMAGE_IMPORT_DESCRIPTOR;
 typedef IMAGE_IMPORT_DESCRIPTOR UNALIGNED *PIMAGE_IMPORT_DESCRIPTOR;
 ```
