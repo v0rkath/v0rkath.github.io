@@ -40,9 +40,6 @@ The main things in the above struct that are mainly used for IAT Hooking at the 
 
 The ILT/INT is an acronym for either Import Lookup Table or Import Name Table, respectively. Both of which are names which are used interchangeably. The is a table of function names which have been imported into the process by the DLL. As just mentioned above the `IMAGE_IMPORT_DESCRIPTOR` contains the address of the ILT/INT.
 
-![ILT/INT Example](/assets/ILT-INT-diagram.png)
-*Example of the ILT/INT*
-
 IAT stands for Import Address Table, so it pretty much does what it says on the tin; it's a table of addresses for each imported function. However, on disk the IAT is identical to the ILT (so it just holds the names of the functions), but at runtime the loader overwrites the IAT with the addresses of those functions.
 
 ![IAT & ILT on disk and on runtime](/assets/IAT-diagram.png)
