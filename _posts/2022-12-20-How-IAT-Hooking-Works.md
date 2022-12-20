@@ -1,3 +1,11 @@
+---
+title: How IAT Hooking Works
+date: 2022-12-20 15:15:0 +0100
+categories: [Reverse Engineering, Hooking, Hacking]
+tags: [hooking, hook, hacking, IAT, ILT, IDT]     # TAG names should always be lowercase
+---
+
+
 ## Overview
 
 This method of hooking is done by changing the address of the function you want to hook in the IAT so it jumps to your code rather than the function.
