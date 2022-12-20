@@ -59,8 +59,6 @@ This is relatively simple and has been used in various bits of malware for vario
 - Extract information from the function
 - Simply just running additional code whenever the original function is called
 
-!!! How to find IAT and function
-
 ![Example of how the IAT looks after being hooked](/assets/Before-Hook-After-Hook.png)
 *Example of how the IAT looks after it has been hooked to jump to your own code*
 
