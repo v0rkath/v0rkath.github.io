@@ -35,15 +35,18 @@ typedef IMAGE_IMPORT_DESCRIPTOR UNALIGNED *PIMAGE_IMPORT_DESCRIPTOR;
 
 The main things in the above struct that are mainly used for IAT Hooking at the `OriginalFirstThunk` (The relative virtual address to the ILT/INT), `Name` (name of the DLL) and `FirstThunk` (the relative virtual address to the IAT).
 
-![Relationship of the Import Directory, IAT and ILT](/assets/IDT-ILT-IAT-diagram.png)*General relationship of the Import Directory, IAT and ILT*
+![Relationship of the Import Directory, IAT and ILT](/assets/IDT-ILT-IAT-diagram.png)
+*General relationship of the Import Directory, IAT and ILT*
 
 The ILT/INT is an acronym for either Import Lookup Table or Import Name Table, respectively. Both of which are names which are used interchangeably. The is a table of function names which have been imported into the process by the DLL. As just mentioned above the `IMAGE_IMPORT_DESCRIPTOR` contains the address of the ILT/INT.
 
-![ILT/INT Example](/assets/ILT-INT-diagram.png)*Example of the ILT/INT*
+![ILT/INT Example](/assets/ILT-INT-diagram.png)
+*Example of the ILT/INT*
 
 IAT stands for Import Address Table, so it pretty much does what it says on the tin; it's a table of addresses for each imported function. However, on disk the IAT is identical to the ILT (so it just holds the names of the functions), but at runtime the loader overwrites the IAT with the addresses of those functions.
 
-![IAT & ILT on disk and on runtime](/assets/IAT-ILT-diagram.png)*IAT & ILT on disk and at runtime*
+![IAT & ILT on disk and on runtime](/assets/IAT-ILT-diagram.png)
+*IAT & ILT on disk and at runtime*
 
 I believe this is all you really need to know to understand how this hooking technique works.
 
@@ -58,7 +61,8 @@ This is relatively simple and has been used in various bits of malware for vario
 
 !!! How to find IAT and function
 
-![Example of how the IAT looks after being hooked](/assets/Before-Hook-After-Hook.png)*Example of how the IAT looks after it has been hooked to jump to your own code*
+![Example of how the IAT looks after being hooked](/assets/Before-Hook-After-Hook.png)
+*Example of how the IAT looks after it has been hooked to jump to your own code*
 
 Once you have found the IAT and the function to hook, the process is the following:
 1. Change the address of the function in the IAT to the address of your own code, by doing this whenever that function is called it will go to your own code rather than the actual function.
