@@ -47,7 +47,7 @@ The ILT/INT is an acronym for either Import Lookup Table or Import Name Table, r
 
 IAT stands for Import Address Table, so it pretty much does what it says on the tin; it's a table of addresses for each imported function. However, on disk the IAT is identical to the ILT (so it just holds the names of the functions), but at runtime the loader overwrites the IAT with the addresses of those functions.
 
-![IAT & ILT on disk and on runtime](/assets/IAT-ILT-diagram.png)
+![IAT & ILT on disk and on runtime](/assets/IAT-diagram.png)
 
 *IAT & ILT on disk and at runtime*
 
