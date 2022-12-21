@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://v0rkath.github.io/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/categories/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/archives/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/about/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/posts/How-IAT-Hooking-Works/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/posts/How-Hooking-Works/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/posts/sdfsdf/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/hacking/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/hook/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/hooking/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/decryption/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/encryption/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/iat/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/idt/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/ilt/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/tags/rc4/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/categories/reverse-engineering/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/categories/encryption-decryption/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/categories/hooking/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://v0rkath.github.io/categories/hacking/</loc>
+  <lastmod>2022-12-21T13:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
